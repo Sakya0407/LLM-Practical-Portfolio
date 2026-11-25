@@ -64,6 +64,4 @@ Python, Pandas, NumPy, NLTK, Scikit-learn, Matplotlib, Seaborn
 pip install pandas numpy nltk scikit-learn matplotlib seaborn
 ```
 
-## Author
 
-Sakya – Data Science undergraduate, NSBM Green University
