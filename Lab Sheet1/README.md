@@ -41,19 +41,19 @@ Python, Pandas, NumPy, NLTK, Scikit-learn, Matplotlib, Seaborn
 ## Screenshots
 
 ### Original vs cleaned text
-![Preprocessing](screenshots/01_preprocessing.png)
+![Preprocessing](Screenshots/01_preprocessing.png)
 
 ### Most frequent words
-![Top words](screenshots/02_top_words.png)
+![Top words](Screenshots/02_top_words.png)
 
 ### Evaluation metrics
-![Metrics](screenshots/03_metrics.png)
+![Metrics](Screenshots/03_metrics.png)
 
 ### Confusion matrices
-![Confusion matrix](screenshots/04_confusion_matrix.png)
+![Confusion matrix](Screenshots/04_confusion_matrix.png)
 
 ### Predictions on new sentences
-![New sentences](screenshots/05_new_sentences.png)
+![New sentences](Screenshots/05_new_sentences.png)
 
 ## How to run
 
