@@ -19,7 +19,7 @@ A small character-level Transformer (decoder-only) built from scratch in PyTorch
 | Attention heads | 6 |
 | Embedding size | 192 |
 | Context length (`block_size`) | 256 |
-| Parameters | **X.XX M** |
+| Parameters | **0.83M** |
 | Optimizer | AdamW with warm-up and cosine decay |
 
 Main components: token + positional embeddings, masked multi-head self-attention, feed-forward layers (GELU), residual connections, LayerNorm and dropout.
