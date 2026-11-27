@@ -12,7 +12,7 @@ Fine-tuned a small instruction-tuned language model with LoRA so it can answer q
 | Method | LoRA (PEFT), optional 4-bit QLoRA switch |
 | Trainer | TRL `SFTTrainer` |
 | GPU | **(14.6 GB)** |
-| Dataset | 36 Q&A pairs (café domain) |
+| Dataset | 36 Q&A pairs (cafe domain) |
 | LoRA settings | rank 16, alpha 32, dropout 0.05, all attention and MLP projection layers |
 | Trainable parameters | **(8,798,208)** |
 | Epochs / learning rate | 8 / 2e-4 |
