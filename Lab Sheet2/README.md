@@ -59,6 +59,3 @@ An affordable smart cap that attaches to any ordinary reusable bottle and turns 
 ### Visual prototype (mock-up)
 ![SipSync mock-up](screenshots/04_mockup.png)
 
-## Author
-
-Sakya – Data Science undergraduate, NSBM Green University
