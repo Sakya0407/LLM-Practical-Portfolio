@@ -11,10 +11,10 @@ Fine-tuned a small instruction-tuned language model with LoRA so it can answer q
 | Model | `Qwen/Qwen2.5-0.5B-Instruct` |
 | Method | LoRA (PEFT), optional 4-bit QLoRA switch |
 | Trainer | TRL `SFTTrainer` |
-| GPU | **XXXX (XX GB)** |
+| GPU | **(14.6 GB)** |
 | Dataset | 36 Q&A pairs (café domain) |
 | LoRA settings | rank 16, alpha 32, dropout 0.05, all attention and MLP projection layers |
-| Trainable parameters | **X.XX M (X.XX% of total)** |
+| Trainable parameters | **(8,798,208)** |
 | Epochs / learning rate | 8 / 2e-4 |
 
 **Why a GPU?** Fine-tuning is mostly large matrix multiplications. A GPU runs thousands of these in parallel, so training takes minutes instead of hours on a CPU.
