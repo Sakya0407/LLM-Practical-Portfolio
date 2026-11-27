@@ -2,7 +2,7 @@
 
 **PUSL 3205 – Large Language Models and Generative AI**
 
-Fine-tuned a small instruction-tuned language model with LoRA so it can answer questions about a made-up coffee and tea café, **Ceylon Brew Café**.
+Fine-tuned a small instruction-tuned language model with LoRA so it can answer questions about a made-up coffee and tea cafe, **Ceylon Brew Cafe**.
 
 ## Setup
 
@@ -48,7 +48,7 @@ Fine-tuned a small instruction-tuned language model with LoRA so it can answer q
 ## Key observations
 
 **1. Original (base) model**
-- It had no knowledge of Ceylon Brew Café.
+- It had no knowledge of Ceylon Brew Cafe.
 - For questions about hours, discounts or policies it gave generic AI replies such as "As an AI language model, I don't have physical presence..." or "I don't have access to real-time information...".
 
 **2. Fine-tuned model**
@@ -83,13 +83,3 @@ Fine-tuned a small instruction-tuned language model with LoRA so it can answer q
 ### Original vs fine-tuned comparison
 ![Comparison](screenshots/06_comparison.png)
 
-## How to run
-
-1. Open `notebook/lab4_lora_finetuning.ipynb` in Google Colab.
-2. Set Runtime → Change runtime type → **T4 GPU**.
-3. Run all cells from top to bottom (about 10 minutes).
-4. Optional: set `USE_QLORA = True` in the model cell to use 4-bit QLoRA.
-
-## Author
-
-Sakya – Data Science undergraduate, NSBM Green University
