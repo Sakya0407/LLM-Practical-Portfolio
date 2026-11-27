@@ -8,7 +8,7 @@ A small character-level Transformer (decoder-only) built from scratch in PyTorch
 
 [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories)
 - Short stories written in simple vocabulary and grammar
-- 5,000 stories used (average length: **XXX characters**)
+- 5,000 stories used 
 - Character-level tokenizer, vocabulary size: **80**
 
 ## Model
@@ -84,12 +84,4 @@ Main components: token + positional embeddings, masked multi-head self-attention
 ### Experiment comparison
 ![Experiments](screenshots/06_experiments.png)
 
-## How to run
 
-1. Open `notebook/lab3_tiny_transformer_v3.ipynb` in Google Colab.
-2. Set Runtime → Change runtime type → **T4 GPU**.
-3. Run all cells from top to bottom (about 10 minutes).
-
-## Author
-
-Sakya – Data Science undergraduate, NSBM Green University
