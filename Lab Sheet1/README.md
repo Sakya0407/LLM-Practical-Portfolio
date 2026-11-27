@@ -55,13 +55,4 @@ Python, Pandas, NumPy, NLTK, Scikit-learn, Matplotlib, Seaborn
 ### Predictions on new sentences
 ![New sentences](Screenshots/05_new_sentences.png)
 
-## How to run
-
-1. Open `notebook/lab1_sentiment_analysis.ipynb` in Google Colab (or Jupyter).
-2. Run all cells from top to bottom.
-
-```bash
-pip install pandas numpy nltk scikit-learn matplotlib seaborn
-```
-
 
